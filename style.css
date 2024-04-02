@@ -1,3 +1,7 @@
+
+
+
+
 .container {
     max-width: 600px;
     margin: 0 auto;
@@ -122,16 +126,22 @@ p.bio {
     
 }
 
+
+
 .banner {
     display: flex;
     background: url(img/รับวุฒ.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 53em;
     align-items: flex-end;
-
-
+    max-width: 100%;
+    object-fit: cover;
+    
 }
+
+
+
 
 
 
@@ -172,7 +182,7 @@ p.bio {
     padding: 0 25px;
   }
   .navBar ul li a {
-    font-size: 1rem;
+    font-size: 20px;
     color: black;
     font-weight: 400;
     letter-spacing: 1.5px;
