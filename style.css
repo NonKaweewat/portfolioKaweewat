@@ -81,7 +81,22 @@ h5 {
 .work {
     margin-bottom: 20px;
     width: 100%;
+    transition: 1s;
 }
+
+
+
+
+
+
+
+
+.work:hover{
+    transform: scale(2);
+    z-index: 2;
+}
+
+
 
 .footer {
     text-align: center;
